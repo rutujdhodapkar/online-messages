@@ -22,7 +22,7 @@
         const messageInput = document.getElementById("message");
 
         let name = prompt("Enter your name:");
-        let socket = new WebSocket("ws://192.168.X.Y:12345");  // ✅ Replace with your actual local IP
+        let socket = new WebSocket("ws://192.168.0.106:12345");  // ✅ Replace with your actual local IP
 
         socket.onopen = function() {
             console.log("[CLIENT] Connected to server");
